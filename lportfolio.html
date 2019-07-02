@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: "Open Sans";
+}
+
+p {
+  font-size: 18px
+}
+
+/* chivo, lato, open sans,
+dr sugiyama, loved by the king, pompiere, rock salt */
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 40px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #FFC300;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* <meta name="viewport" content="width=device-width, initial-scale=1"> */
+
+.container {
+position: relative;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: black;
+}
+
+.container:hover .overlay {
+opacity: 0.85;
+}
+
+.text {
+color: white;
+font-size: 18px;
+position: absolute;
+top: 50%;
+left: 35%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <p style="font-size:60px;color:white;padding-left:16px";>LcP</p>
+  <nav>
+    <a href="#about">about</a>
+    <a href="#portfolio">portfolio</a>
+    <a href="#connect">connect</a>
+  </nav>
+</div>
+
+#about {
+  <div class="main" id="about">
+    <h2>about me</h2>
+    <p>My name is Lena Pang. I was on Ocotber 13, 2003, and I attend Branham High School. My favorite food is ramen, although sushi is a close second. I don't have a favorite color. I've loved art since I could draw, but I've recently been exploring digital art using Adobe Creative Suite tools like Photoshop, Illustrator, and After Effects.</p>
+  </div>
+}
+
+#portfolio {
+  <div class="main" id="portfolio">
+    <div id="images">
+      <div class="container">
+        <img src="skier.png" class="image">
+          <div class="overlay">
+            <div class="text">Skier illustration inspired by my younger brother. (Adobe Illustrator, 2019)</div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="vase and shell.png" class="image">
+          <div class="overlay">
+            <div class="text">Vase and shell using. (Oil paint, 2019)</div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="Whale Shark.png" class="image">
+          <div class="overlay">
+            <div class="text">Whale shark drawing inspired the time I swam with whale sharks in Cancun. (Adobe Photoshop, 2018)</div>
+          </div>
+      </div>
+    </diV>
+    <iframe style="padding: 0px 20px 25px 0px; margin-left: 25%" width="50%" height=315px src="https://www.youtube.com/embed/AYJXKJ6Hgpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+}
+
+#connect {
+  <div class="main" id="connect">
+    <h2>Questions or comments?<h2>
+      <p>Contact me at lencordeliart@gmail.com or follow me on social media <a href="https://www.instagram.com/lena_cordeliart/" style="font-size:18px";>@lencordeliart</a>!</p>
+  </div>
+}
+
+</body>
+</html>
